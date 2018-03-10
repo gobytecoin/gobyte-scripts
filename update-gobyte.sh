@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/
-sudo gobyted stop
+sudo gobyte-cli stop
 sudo rm -fr gobyte/
 sudo git clone https://github.com/gobytecoin/gobyte
 cd gobyte
